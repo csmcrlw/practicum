@@ -9,19 +9,19 @@ def main():
     onigiri_sushi.prepare()
     onigiri_sushi.pack()
     onigiri_sushi.deliver()
-
+    print()
     maki_factory = MakiSushiFactory()
     maki_sushi = maki_factory.create_sushi()
     maki_sushi.prepare()
     maki_sushi.pack()
     maki_sushi.deliver()
-
+    print()
     tempura_factory = TempuraRollFactory()
     tempura_roll = tempura_factory.create_sushi()
     tempura_roll.prepare()
     tempura_roll.pack()
     tempura_roll.deliver()
-
+    print()
     spicy_tuna_factory = SpicyTunaRollFactory()
     spicy_tuna_roll = spicy_tuna_factory.create_sushi()
     spicy_tuna_roll.prepare()
